@@ -105,7 +105,8 @@ def run_test_multiply_numbers():
 def multiply_numbers(sequence_of_lists):
     for k in range(len(sequence_of_lists)):
         for j in range(len(sequence_of_lists[k])):
-            sequence_of_lists = sequence_of_lists*(k+1)
+            print(k)
+            sequence_of_lists = sequence_of_lists[k]*(k+1)
     return sequence_of_lists
     """
     In the given sequence of lists,
